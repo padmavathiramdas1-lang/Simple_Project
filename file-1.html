@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday, To The Prettiest Part of My Story ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Floating Hearts -->
+    <div class="hearts"></div>
+
+    <!-- Floating Balloons -->
+    <div class="balloons">
+        <span class="balloon b1">🎈</span>
+        <span class="balloon b2">🎈</span>
+        <span class="balloon b3">🎈</span>
+        <span class="balloon b4">🎈</span>
+        <span class="balloon b5">🎈</span>
+    </div>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+
+        <div class="sparkles">✦ ✧ ✦ ✧ ✦</div>
+
+        <p class="small-text">A special day for someone very special...</p>
+
+        <h1>
+            Happy Birthday
+            <span>To The Prettiest Part of My Story ❤️</span>
+        </h1>
+
+        <p class="subtitle">
+            Today is all about celebrating the beautiful soul
+            who makes my world brighter every single day.
+        </p>
+
+        <button class="love-button" onclick="showLove()">
+            💗 Click for a Surprise 💗
+        </button>
+
+        <div id="surprise" class="surprise">
+            You are my favorite person, my happiest thought,
+            and my most beautiful reason to smile. ❤️
+        </div>
+
+        <div class="scroll">
+            ↓ Scroll down, my love ↓
+        </div>
+
+    </section>
+
+
+    <!-- BIRTHDAY SECTION -->
+    <section class="birthday">
+
+        <div class="cake">
+            <div class="candle">
+                <div class="flame"></div>
+            </div>
+
+            <div class="cake-top"></div>
+            <div class="cake-middle"></div>
+            <div class="cake-bottom"></div>
+        </div>
+
+        <h2>Today, the world celebrates YOU 💕</h2>
+
+        <p>
+            Another beautiful year of your life begins today.
+            I hope this year brings you endless smiles,
+            beautiful memories and everything your heart wishes for.
+        </p>
+
+    </section>
+
+
+    <!-- LOVE LETTER -->
+    <section class="letter-section">
+
+        <div class="letter">
+
+            <div class="letter-icon">💌</div>
+
+            <h2>A Few Unsaid Things</h2>
+
+            <p>
+                My Love,
+            </p>
+
+            <p>
+                If I could give you one thing in life,
+                I would give you the ability to see yourself
+                through my eyes.
+            </p>
+
+            <p>
+                Then you would realize just how incredibly
+                beautiful, precious and special you truly are.
+            </p>
+
+            <p>
+                Thank you for filling my days with smiles,
+                laughter and memories that I will always treasure.
+            </p>
+
+            <p>
+                On your special day, I just want you to know
+                that you deserve all the happiness in the world.
+            </p>
+
+            <p class="signature">
+                Forever yours,<br>
+                ❤️ Your Love
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- MEMORIES -->
+    
+    <section class="memories">
+
+    <h2>Scenes From Our Little Universe📸</h2>
+
+    <p class="section-subtitle">
+        Every picture holds a little piece of our story.
+    </p>
+
+    <div class="video-button-container">
+
+        <button class="watch-video-btn" onclick="openMemoryVideo()">
+            🎬 Watch Our Memories ❤️
+        </button>
+
+    </div>
+
+    <!-- Video Popup -->
+    <div id="videoModal" class="video-modal">
+
+        <div class="video-container">
+
+            <span class="close-video" onclick="closeMemoryVideo()">&times;</span>
+
+            <video id="memoryVideo" controls>
+                <source src="video/edit_video.mp4" type="video/mp4">
+                
+            </video>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- REASONS -->
+    <section class="reasons">
+
+        <h2>Why I Love You 💗</h2>
+
+        <div class="reason-container">
+
+            <div class="reason">
+                <div>🌸</div>
+                <h3>Your Smile</h3>
+                <p>It can instantly make even my worst day better.</p>
+            </div>
+
+            <div class="reason">
+                <div>💕</div>
+                <h3>Your Heart</h3>
+                <p>Your kindness and beautiful heart make you truly special.</p>
+            </div>
+
+            <div class="reason">
+                <div>✨</div>
+                <h3>Your Presence</h3>
+                <p>Everything feels a little more beautiful when you're around.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FINAL MESSAGE -->
+    <section class="final">
+
+        <div class="big-heart">❤️</div>
+
+        <h2>Happy Birthday, My Beautiful Girl</h2>
+
+        <p>
+            May your smile always shine,
+            your heart always be happy,
+            and our story continue to become more beautiful
+            with every passing day.
+        </p>
+
+        <h3>
+            I love you more than words can say. ❤️
+        </h3>
+
+        <div class="forever">
+            Forever & Always 💕
+        </div>
+
+    </section>
+
+
+    <footer>
+        Made with infinite love ❤️
+    </footer>
+
+
+    <!-- Music -->
+    <audio id="birthdayMusic" loop>
+        <source src="music/birthday.mp3" type="audio/mpeg">
+    </audio>
+
+    <button class="music-button" onclick="toggleMusic()">
+        🎵
+    </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
